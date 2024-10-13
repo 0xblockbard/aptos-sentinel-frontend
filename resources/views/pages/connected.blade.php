@@ -9,7 +9,7 @@
                 <div class="flex flex-col items-center w-full">
                     <h2 class="text-base text-sky-400 font-semibold tracking-wide uppercase">Welcome</h2>
                     <div>
-                        <h3 class="mt-2 text-3xl leading-8 font-roboto font-extrabold tracking-tight text-sky-600 sm:text-4xl">Get started with PropVerify</h3>
+                        <h3 class="mt-2 text-3xl leading-8 font-roboto font-extrabold tracking-tight text-sky-600 sm:text-4xl">Get started with Sentinel</h3>
                         <div class="w-40 sm:w-48 border border-sky-400 mt-2 mb-2 ml-auto pr-4"></div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                             <h2 class="font-roboto font-bold text-xl text-center">Technical Dive</h2>
                             <div class="w-14 border border-sky-400 mt-1 mb-4 mx-auto"></div>
                             <img class="rounded-sm shadow-md border border-sky-500 shadow-sky-500 " src="https://res.cloudinary.com/blockbard/image/upload/c_scale,w_auto,q_auto,f_auto,fl_lossy/v1728490794/concept-3_bh3rj4.png" />
-                            <p class="font-merriweather mt-6 sm:px-4 text-center text-sm font-medium">Get an in-depth look at the technical framework supporting PropVerify</p>
+                            <p class="font-merriweather mt-6 sm:px-4 text-center text-sm font-medium">Get an in-depth look at the technical framework supporting Sentinel</p>
                             <button class="mt-6 mb-2 text-sm leading-4 font-medium mx-auto py-2 px-4 bg-sky-600 text-white rounded-md hover:bg-sky-500 transition duration-300 font-sans">Learn More</button>
                         </div>
                     </a>

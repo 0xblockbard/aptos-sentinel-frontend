@@ -8,10 +8,10 @@
 
             <div class="flex flex-col items-start justify-center w-full sm:w-1/2 sm:pr-16 sm:pl-20 pb-10 pt-10 sm:pt-16">
 
-                <h1 class="text-5xl text-sky-600 font-extrabold">PropVerify</h1>
+                <h1 class="text-5xl text-sky-600 font-extrabold">Sentinel</h1>
                 <span class="w-20 border-2 border-sky-600 mt-2"></span>
                
-                <h3 class="text-md mt-2 font-semibold italic">Modular KYC-RWA Framework</h3>
+                <h3 class="text-md mt-2 font-semibold italic">KYC-RWA Tokenisation Framework</h3>
 
                 <p class="text-base mt-8">Tokenise real-world assets and adopt a modular Know-Your-Customer approach with flexible and customisable transaction policies</p>
 

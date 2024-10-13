@@ -8,8 +8,8 @@
             <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
                 <div>
                     <h2 class="text-base text-gray-700 font-semibold tracking-wide">0xBlockBard</h2>
-                    <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-sky-600 sm:text-4xl font-roboto">About PropVerify</h3>
-                    <p class="mt-4 text-md text-gray-500 italic font-merriweather">Modular KYC-RWA Architecture on Aptos</p>
+                    <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-sky-600 sm:text-4xl font-roboto">About Sentinel</h3>
+                    <p class="mt-4 text-md text-gray-500 italic font-merriweather">KYC-RWA Tokenisation Framework on Aptos</p>
                 </div>
             </div>
             <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -42,7 +42,7 @@
 
                     <div class="mt-2 prose prose-sky text-gray-600 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 text-justify pr-5 space-y-6">
                         
-                        <p><span class="font-semibold text-sky-600">PropVerify</span></p>
+                        <p><span class="font-semibold text-sky-600">Sentinel</span></p>
 
                         <p class="font-semibold italic">By 0xBlockBard</p>
 

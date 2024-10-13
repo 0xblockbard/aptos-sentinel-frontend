@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="flex w-full py-24" style="background-image: url('https://res.cloudinary.com/blockbard/image/upload/c_scale,w_auto,q_auto,f_auto,fl_lossy/v1728488851/header-1_tc9zwf.png'); background-size: cover; background-position: center;">
+    <div class="flex w-full py-24 shadow-md" style="background-image: url('https://res.cloudinary.com/blockbard/image/upload/c_scale,w_auto,q_auto,f_auto,fl_lossy/v1728489524/header-4_l1fnvw.png'); background-size: cover; background-position: center;">
         <div class="max-w-7xl">
             <div class="flex flex-col ml-40 bg-white opacity-90 px-12 py-4 rounded-md"> 
                 <h3 class="text-3xl text-sky-600 font-extrabold">Transaction Policies</h3>
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col w-8/12 px-12 py-6 m-auto">
+    <div class="flex flex-col w-8/12 px-12 pt-16 pb-24 m-auto">
 
         <div class="flex flex-col pl-3">
 
