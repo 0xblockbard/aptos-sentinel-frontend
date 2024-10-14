@@ -16,9 +16,9 @@
                         About
                     </a>
 
-                    {{-- <a href="{{ route('kyc') }}" class="{{ \Request::route()->getName() == 'kyc' || \Request::route()->getName() == 'show_campaign' ? 'border-sky-500 text-sky-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-sky-700' }} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:border-sky-500">
+                    <a href="{{ route('kyc') }}" class="{{ \Request::route()->getName() == 'kyc' || \Request::route()->getName() == 'show_campaign' ? 'border-sky-500 text-sky-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-sky-700' }} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:border-sky-500">
                         KYC
-                    </a> --}}
+                    </a>
 
                     <a href="{{ route('transaction_policies') }}" class="{{ \Request::route()->getName() == 'transaction_policies' || \Request::route()->getName() == 'show_campaign' ? 'border-sky-500 text-sky-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-sky-700' }} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:border-sky-500">
                         Transaction Policies

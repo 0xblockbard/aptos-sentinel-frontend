@@ -11,7 +11,7 @@
                 <h1 class="text-5xl text-sky-600 font-extrabold">Sentinel</h1>
                 <span class="w-20 border-2 border-sky-600 mt-2"></span>
                
-                <h3 class="text-md mt-2 font-semibold italic">KYC-RWA Tokenisation Framework</h3>
+                <h3 class="text-md mt-2 font-semibold italic">KYC-RWA Tokenisation Framework on Aptos Move</h3>
 
                 <p class="text-base mt-8">Tokenise real-world assets and adopt a modular Know-Your-Customer approach with flexible and customisable transaction policies</p>
 
@@ -22,11 +22,6 @@
                         </button>
                     </a>
 
-                    {{-- <a href="{{ route('create_campaign') }}">
-                        <button type="button" class="home_start_campaign_button invisible inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-sky-700 bg-sky-100 hover:bg-sky-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500">
-                            Start a Campaign
-                        </button>
-                    </a> --}}
                 </div>
 
                 <span class="w-10 border border-sky-600 mt-24"></span>

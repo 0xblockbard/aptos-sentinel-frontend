@@ -5,8 +5,8 @@
     <div class="flex w-full py-24 shadow-md" style="background-image: url('https://res.cloudinary.com/blockbard/image/upload/c_scale,w_auto,q_auto,f_auto,fl_lossy/v1728489177/header-2_alyf6e.png'); background-size: cover; background-position: center;">
         <div class="max-w-7xl">
             <div class="flex flex-col ml-40 bg-white opacity-90 px-12 py-4 rounded-md"> 
-                <h3 class="text-3xl text-sky-600 font-extrabold">Guide</h3>
-                <span class="w-14 border-2 border-sky-600 mt-1"></span>
+                <h3 class="text-3xl text-sky-600 font-extrabold">Guide: Sentinel Process Flow</h3>
+                <span class="w-24 border-2 border-sky-600 mt-1"></span>
             </div>
         </div>
     </div>
@@ -19,33 +19,43 @@
                 
                 <div class="mt-2 px-10 py-6 text-gray-600 space-y-6">
 
-                    <h2 class="font-semibold text-2xl">Overview of Sentinel</h2>
+                    <h2 class="font-semibold text-2xl">Sentinel Process Flow</h2>
                     
-                    <p><span class="font-semibold text-sky-600">AptosCrowd</span> is a decentralized crowdfunding platform that implements both the Flexible (Keep-It-All) and Fixed (All-Or-Nothing) crowdfunding models.</p>
+                    <p>On initialization, the KYC Controller admin can define a set of valid countries and investor statuses that KYC Registrars will use for user KYC verification.</p>
 
-                    <p>By leveraging the Aptos blockchain, <span class="font-semibold text-sky-600">AptosCrowd</span> aims to revolutionize the crowdfunding landscape by providing greater transparency, lower fees, and enhanced security.</p>
+                    <p>Each entry is assigned a unique ID—for instance, “US” may be mapped to 0, and “France” to 1. Similarly, investor statuses like “standard” and “accredited” may correspond to 0 and 1, respectively. KYC Registrars can only use these predefined IDs when verifying users, ensuring compliance with valid criteria.</p>
 
-                    <p>Some of the most significant benefits of a decentralised crowdfunding platform would be greater transparency and efficiency of fees.</p>
+                    <p>The admin can then appoint KYC Registrars, specifying the registrar’s account address, name, description, and image. If necessary, the admin can pause or remove a KYC Registrar from the module.</p>
 
-                    <p>With no intermediaries involved, it becomes easier to ensure that the funds raised are spent appropriately and to track them if necessary.</p>
+                    <p>KYC Registrars will then be able to verify a user’s identity and set their country and investor status. Each user is limited to management by a single Registrar to prevent conflicts.</p>
 
-                    <p>Additionally, smart contracts eliminate many of the fees associated with traditional crowdfunding platforms, such as the fundraiser fee (typically 5–8%) and the payment processor fee (around 2.9%).</p>
+                    <p>The KYC Controller admin also sets transaction policies, which consist of the following properties:</p>
 
-                    <p>In the Aptos ecosystem, a decentralised crowdfunding platform will also serve to foster a shared community spirit together in support of new and exciting projects for the future across various categories.</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><strong>Blacklist countries:</strong> Transactions are blocked if either the sender or receiver's country is blacklisted by the other party.</li>
+                        <li><strong>Can Send:</strong> Controls whether users under this policy can initiate transactions.</li>
+                        <li><strong>Can Receive:</strong> Controls whether users can receive transactions.</li>
+                        <li><strong>Max Transaction Amount:</strong> Defines the maximum amount allowed per transaction.</li>
+                        <li>
+                        <strong>Apply Transaction Count Velocity:</strong> Enforces a cap on the number of transactions from a single address within a specific timeframe. It includes:
+                        <ul class="list-disc pl-5 space-y-1 mt-2">
+                            <li><strong>Transaction Count Velocity Timeframe:</strong> Duration (in seconds) for which the transaction count limit applies.</li>
+                            <li><strong>Transaction Count Velocity Max:</strong> The maximum allowable transactions within the timeframe.</li>
+                        </ul>
+                        </li>
+                        <li>
+                        <strong>Apply Transaction Amount Velocity:</strong> Enforces a cap on the total transaction amount from a single address within a specific timeframe. It includes:
+                        <ul class="list-disc pl-5 space-y-1 mt-2">
+                            <li><strong>Transaction Amount Velocity Timeframe:</strong> Duration (in seconds) for which the amount limit applies.</li>
+                            <li><strong>Transaction Amount Velocity Max:</strong> The maximum transaction amount within this timeframe.</li>
+                        </ul>
+                        </li>
+                    </ul>
 
-                    <p>Through crowdfunding, project creators and developers can lower their risk and gauge the market or community's response to their project based on the amount of Aptos raised.</p>
+                    <p>When transactions or balance modifications occur, these checks are enforced based on the user’s identity and relevant transaction policies.</p>
 
-                    <p>In contrast, the conventional approach entails either investing too much time or effort into a high-risk venture only to find lacklustre demand.</p>
+                    <p>Successful transactions must pass all applicable checks, ensuring regulatory compliance and security.</p>
 
-                    <p>Over time and with growing user base, we can adopt a decentralised governance model where members can shape the future direction of new initiatives and ventures.</p>
-
-                    <p>With the implementation of <span class="font-semibold text-sky-600">AptosCrowd</span>, I hope that this would lead to a higher number of successful projects started on the Aptos blockchain driven by an ever-growing supportive community.</p>
-
-                    <p class="font-semibold italic">By 0xBlockBard</p>
-
-                    <p><span class="font-semibold">Twitter / X:</span> <a class="hover:underline hover:text-sky-600" target="_blank" href="https://x.com/0xblockbard">https://x.com/0xblockbard</a></p>
-
-                    <p><span class="font-semibold">Substack Newsletter:</span> <a class="hover:underline hover:text-sky-600" target="_blank" href="https://www.0xblockbard.com/">https://www.0xblockbard.com</a></p>
                     
                 </div>
 

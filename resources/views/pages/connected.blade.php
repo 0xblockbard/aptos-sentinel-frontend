@@ -38,10 +38,10 @@
 
                     <a class="flex w-full sm:w-1/3 mt-10 sm:mt-0" href="{{ route('guide') }}">
                         <div class="flex flex-col rounded-md shadow-md border border-sky-200 px-8 py-6 hover:shadow-xl shadow-sky-400 hover:border-sky-300 transition duration-300ease-in-out hover:scale-[1.05] hover:cursor-pointer hover:border-2"> 
-                            <h2 class="font-roboto font-bold text-xl text-center">Technical Dive</h2>
+                            <h2 class="font-roboto font-bold text-xl text-center">Process Flow</h2>
                             <div class="w-14 border border-sky-400 mt-1 mb-4 mx-auto"></div>
                             <img class="rounded-sm shadow-md border border-sky-500 shadow-sky-500 " src="https://res.cloudinary.com/blockbard/image/upload/c_scale,w_auto,q_auto,f_auto,fl_lossy/v1728490794/concept-3_bh3rj4.png" />
-                            <p class="font-merriweather mt-6 sm:px-4 text-center text-sm font-medium">Get an in-depth look at the technical framework supporting Sentinel</p>
+                            <p class="font-merriweather mt-6 sm:px-4 text-center text-sm font-medium">Get an in-depth look at Sentinel's process flow</p>
                             <button class="mt-6 mb-2 text-sm leading-4 font-medium mx-auto py-2 px-4 bg-sky-600 text-white rounded-md hover:bg-sky-500 transition duration-300 font-sans">Learn More</button>
                         </div>
                     </a>
