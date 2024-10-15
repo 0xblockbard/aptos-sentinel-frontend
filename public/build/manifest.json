@@ -6,7 +6,7 @@
     "isDynamicEntry": true
   },
   "resources/assets/js/app.tsx": {
-    "file": "assets/app-O9d2Ky27.js",
+    "file": "assets/app-hZZxl4LX.js",
     "name": "app",
     "src": "resources/assets/js/app.tsx",
     "isEntry": true,
@@ -14,11 +14,11 @@
       "node_modules/@atomrigslab/aptos-wallet-adapter/dist/index-DRmafxZ_.mjs"
     ],
     "css": [
-      "assets/app-lxIyC-UB.css"
+      "assets/app-2pT5v56J.css"
     ]
   },
   "resources/assets/sass/app.scss": {
-    "file": "assets/app-lxIyC-UB.css",
+    "file": "assets/app-2pT5v56J.css",
     "src": "resources/assets/sass/app.scss",
     "isEntry": true
   }

@@ -94,3 +94,11 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+.transaction_table_container{
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+}

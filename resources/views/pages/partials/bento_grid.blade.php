@@ -1,4 +1,4 @@
-<div class="py-24 sm:py-40">
+<div class="py-24 sm:pt-40 pb-20">
     <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
       <h2 class="text-center text-base/7 font-semibold text-sky-600">Compliance meets Innovation</h2>
       <p class="mx-auto mt-2 max-w-xl leading-10 text-pretty text-center text-3xl font-medium tracking-tight text-gray-950 sm:text-4xl">Everything you need to tokenize </br> Real-World Assets.</p>
