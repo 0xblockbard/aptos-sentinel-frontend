@@ -23,11 +23,11 @@
                     
                     <p>Sentinel enforces strict transaction policies that govern how assets are transferred within the ecosystem. These policies define rules that ensure compliant transactions and allow the KYC Controller admin to configure transfer permissions tailored to various regulatory requirements.</p>
 
-                    <p>Sentinel Transaction Policy Highlights:</p>
+                    <p class="font-semibold">Sentinel Transaction Policy Highlights:</p>
 
                     <ul class="list-disc pl-5 space-y-2">
                         <li><strong>Country Restrictions:</strong>  Transactions are blocked if either the sender or receiver's country is blacklisted.</li>
-                        <li><strong>Permission-Based Transfers:</strong> Sentinel allows for precise control over who can send and receive tokens.</li>
+                        <li><strong>Permission-Based Transfers:</strong> Sentinel allows for precise control over who can send and receive tokens based on a given user's identity (comprising their country and investor status)</li>
                         <li><strong>Transaction Velocity (Size and Frequency Limits):</strong> The system can impose limits on transaction amounts and restrict the number of transactions within a given timeframe, ensuring regulatory compliance and mitigating risk.</li>
                         
                     </ul>

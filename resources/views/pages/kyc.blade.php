@@ -25,11 +25,11 @@
 
                     <p>Through a streamlined process, the Sentinel KYC Controller verifies user identities in adherence to regulatory standards, using a combination of country codes and investor statuses.</p>
 
-                    <p>Key Features of Sentinel KYC:</p>
+                    <p class="font-semibold">Key Features of Sentinel KYC:</p>
 
                     <ul class="list-disc pl-5 space-y-2">
                         <li><strong>Identity Verification:</strong> Sentinel supports country and investor status checks, ensuring that only verified users participate.</li>
-                        <li><strong>Appointed KYC Registrars:</strong> Trusted entities verify users based on predefined, valid criteria.</li>
+                        <li><strong>Appointed KYC Registrars:</strong> Trusted entities may verify users based on their valid criteria, allowing related tokenised RWA businesses and startups to tap on a growing number of KYC-ed users from a network of KYC Registrars</li>
                         <li><strong>Customizable Access Controls:</strong> KYC Registrars can only use the administrator-approved countries and investor statuses, maintaining flexible yet strict compliance with regulatory requirements.</li>
                         
                     </ul>

@@ -50,6 +50,12 @@
                                 </a>
                             </li>
 
+                            <li>
+                                <a href="{{ route('kyc') }}" class="text-gray-500 hover:text-sky-600 ">
+                                    KYC
+                                </a>
+                            </li>
+
                         </ul>
 
                     </div>
