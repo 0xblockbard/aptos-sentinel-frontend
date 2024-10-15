@@ -16,7 +16,7 @@
                 <p class="text-base mt-8">Tokenise real-world assets and adopt a modular Know-Your-Customer approach with flexible and customisable transaction policies</p>
 
                 <div class="flex flex-row mt-10 space-x-4">
-                    <a href="{{ route('show_all_campaigns') }}">
+                    <a href="{{ route('guide') }}">
                         <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500">
                             Learn More
                         </button>

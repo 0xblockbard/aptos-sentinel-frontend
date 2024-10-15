@@ -24,7 +24,7 @@
           </div>
   
           <!-- Repeat with unique IDs -->
-          <div class="pt-6">
+          {{-- <div class="pt-6">
             <dt>
               <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-1" aria-expanded="false">
                 <span class="text-base font-semibold leading-7">What inspired the Sentinel framework?</span>
@@ -42,7 +42,7 @@
               <p class="text-base leading-7 text-gray-600">Sentinel is inspired by the Medici RWA Asset Framework on Solana. It offers a flexible solution to represent tangible and intangible assets on the blockchain, while enforcing property rights and regulatory compliance.</p>
             </dd>
           </div>
-  
+   --}}
           <div class="pt-6">
             <dt>
               <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-2" aria-expanded="false">

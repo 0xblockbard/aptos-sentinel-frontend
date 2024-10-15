@@ -6,7 +6,7 @@
         <div class="max-w-7xl">
             <div class="flex flex-col ml-40 bg-white opacity-90 px-12 py-4 rounded-md"> 
                 <h3 class="text-3xl text-sky-600 font-extrabold">Guide: How it works</h3>
-                <span class="w-16 border-2 border-sky-600 mt-1"></span>
+                <span class="w-20 border-2 border-sky-600 mt-1"></span>
             </div>
         </div>
     </div>

@@ -19,9 +19,3 @@ Route::get('/guide', ['uses' => 'PagesController@guide'])->name('guide');
 Route::get('/kyc', ['uses' => 'PagesController@kyc'])->name('kyc');
 Route::get('/transaction-policies', ['uses' => 'PagesController@transactionPolicies'])->name('transaction_policies');
 Route::get('/connected', ['uses' => 'PagesController@connected'])->name('connected');
-
-Route::get('/campaigns', ['uses' => 'CampaignController@showAll'])->name('show_all_campaigns');
-Route::get('/campaigns/{id}', ['uses' => 'CampaignController@show'])->name('show_campaign');
-
-Route::get('/start', ['uses' => 'CampaignController@create'])->name('create_campaign');
-Route::get('/campaigns/{id}/info', ['uses' => 'CampaignController@edit'])->name('edit_campaign');
